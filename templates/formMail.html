@@ -83,7 +83,7 @@
             <div class="col-lg-6 p-lg-0">
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <div class="frc-captcha " data-sitekey="FCMG3GQNR1DAEFS1" th:attr="data-sitekey=${@appProps.captcha.getSite()}"></div>
+                        <div th:if="${!#strings.isEmpty(@appProps.captcha.getSite())}" class="frc-captcha " data-sitekey="FCMG3GQNR1DAEFS1" th:attr="data-sitekey=${@appProps.captcha.getSite()}"></div>
                         <div th:if="${!#strings.isEmpty(captchaError)}" id="captchaError" th:text="${captchaError}" style="color: red;"></div>
                     </div>
                     <div class="col-lg-6 p-lg-0 text-right">
