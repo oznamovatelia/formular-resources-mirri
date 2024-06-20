@@ -1,4 +1,6 @@
-# Repozitár `formular-resources`
+# Repozitár `formular-resources-mirri`
+
+(DEMO Formulára so zmenenými textami pre MIRRI.)
 
 Tento repozitár obsahuje **šablóny a ďalšie nastavenia**, ktoré sa využívajú v aplikácii [Formular](https://github.com/oznamovatelia/formular).
 
